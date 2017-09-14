@@ -28,14 +28,14 @@ acmbot =ChatBot("ACMBot", read_only=False, #set read_only as False if you want t
 
 
 
-acmbot.set_trainer(ListTrainer) #ACM bot has been trainerd with chatterbot.corpus.english, to add basic conversations. Refer to all the training lists in the ReadMe File.
+acmbot.set_trainer(ListTrainer) #ACM bot has been trainerd with chatterbot.corpus.english, to add basic conversations. Refer to all the training conversations in the acmbot_corpus file.
 
 acmbot.train([ #sample conversation to train the chatterbot.
         '''
         'What are the departments / divisions in ACM?',
         'ACM consists of Technical, Management, Design and Editorial Department.',
         'What is Technical Department?',
-        'Technical Department is where team ACM grinds it gears to come up with ideas and then implements them to make projects tackling real world problems. The widespread domains of the technical team focus on different applications of software development and bring them together to develop applications and softwares with real world applications.',
+        'Technical Department is where team ACM grinds it gears to come up with ideas and then implements them to make projects tackling real world problems. The widespread domains of the technical team focus on different applications of software development and bring them together to develop applications and softwares with real world implementation.',
         'What is Management Department?',
         ''
         '''
